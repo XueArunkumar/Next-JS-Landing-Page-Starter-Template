@@ -1,7 +1,7 @@
 module.exports = {
-  // Enable static export
-  output: 'export',
-
+  experimental: {
+    output: 'export',
+  },
   // Other configuration options
   eslint: {
     dirs: ['.'],
