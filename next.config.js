@@ -12,5 +12,4 @@ const nextConfig = {
     dirs: ['.'],
   },
 };
- 
 module.exports = nextConfig;
