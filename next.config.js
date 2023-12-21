@@ -9,5 +9,5 @@ module.exports = {
   reactStrictMode: true,
   output: {
     // Add your export configuration here
-  }
+  },
 };
