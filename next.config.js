@@ -1,7 +1,5 @@
 module.exports = {
-  experimental: {
-    output: 'export',
-  },
+  target: 'experimental-serverless-trace',
   // Other configuration options
   eslint: {
     dirs: ['.'],
