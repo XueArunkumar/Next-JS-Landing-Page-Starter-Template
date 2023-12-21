@@ -8,7 +8,7 @@ const nextConfig = {
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
-}
+};
 
 module.exports = nextConfig
 
