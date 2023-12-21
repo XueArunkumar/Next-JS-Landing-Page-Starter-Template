@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 /**
  * @type {import('next').NextConfig}
  */
-const withBundleAnalyzer = {
+const nextConfig = {
   output: 'export',
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
@@ -24,4 +24,4 @@ const withBundleAnalyzer = {
   // distDir: 'dist',
 }
  
-module.exports = withBundleAnalyzer
+module.exports = nextConfig
