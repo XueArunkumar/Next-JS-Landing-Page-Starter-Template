@@ -4,7 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = {
-  // Enable static export for optimized deployment
+  // Enable static export
   output: 'export',
 
   // Other configuration options
@@ -17,7 +17,7 @@ module.exports = {
   reactStrictMode: true,
 };
 
-// Conditionally apply bundle analyzer if enabled
+// Conditionally apply bundle analyzer
 module.exports = process.env.ANALYZE === 'true'
   ? withBundleAnalyzer(module.exports)
   : module.exports;
