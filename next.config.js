@@ -7,4 +7,7 @@ module.exports = {
   trailingSlash: true,
   basePath: '',
   reactStrictMode: true,
+  output: {
+    // Add your export configuration here
+  }
 };
