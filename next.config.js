@@ -1,10 +1,8 @@
-
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
   output: 'export',
- 
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   trailingSlash: true,
   reactStrictMode: true,
@@ -13,6 +11,6 @@ const nextConfig = {
   eslint: {
     dirs: ['.'],
   },
-}
+};
  
-module.exports = nextConfig
+module.exports = nextConfig;
