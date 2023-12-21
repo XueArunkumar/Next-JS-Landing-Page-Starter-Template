@@ -18,7 +18,7 @@ module.exports = {
 };
 
 // Conditionally apply bundle analyzer
-module.exports = 
+module.exports =  
   process.env.ANALYZE === 'true'
   ? withBundleAnalyzer(module.exports)
   : module.exports;
