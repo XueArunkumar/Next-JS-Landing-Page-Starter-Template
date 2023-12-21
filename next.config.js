@@ -1,4 +1,6 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
   // Other configuration options
   eslint: {
     dirs: ['.'],
@@ -6,8 +8,7 @@ module.exports = {
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
-  reactStrictMode: true,
-  output: {
-    // Add your export configuration here
-  },
-};
+}
+
+module.exports = nextConfig
+
