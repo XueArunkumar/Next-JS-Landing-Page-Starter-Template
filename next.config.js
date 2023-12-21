@@ -1,5 +1,4 @@
 module.exports = {
-  target: 'serverless',
   // Other configuration options
   eslint: {
     dirs: ['.'],
